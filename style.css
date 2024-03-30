@@ -101,7 +101,6 @@ header h5 {
 }
 
 footer {
-  /* max-height: 300px; */
   background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
   background-size: 100% 100%;
   color: white;
@@ -174,4 +173,7 @@ h2 {
   .container {
     justify-content: center;
   }
+}
+ul{
+  list-style-type: none;
 }
