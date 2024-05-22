@@ -8,7 +8,9 @@
 body {
   font-family: "Rubik", sans-serif;
 }
-
+#cart{
+  display: flex;
+}
 .books {
   max-width: 200px;
 }
@@ -22,12 +24,14 @@ body {
   display: flex;
 }
 
-.section-container {
+.booksSection{
+  display: flex;
   flex-direction: column;
   padding: 5%;
 }
 
-.space-between {
+.page {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -62,7 +66,9 @@ header {
   color: white;
 }
 
-.header-text {
+.headerSection {
+  display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
   max-height: 100%;
   max-width: 20%;
@@ -83,6 +89,8 @@ header h5 {
 }
 
 .button {
+  display: flex;
+  justify-content: space-evenly;
   cursor: pointer;
   background-color: #6095ff;
   color: white;
@@ -137,16 +145,24 @@ h6 {
   font-weight: bold;
   font-size: 20px;
 }
-
+.containerBuy{
+  display: flex;
+  justify-content: space-between;
+}
 h3,
 h2 {
   margin-bottom: 10px;
 }
 
 .container {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
+footer{
+  display: flex;
+  justify-content: space-evenly;
+}
 @media only screen and (max-width: 600px) {
   header {
     height: 200px;
